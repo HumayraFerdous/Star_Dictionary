@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/list"
+    tools:context=".content_writer2">
+
+
+    <EditText
+        android:hint="Enter Id: "
+        android:id="@+id/Idtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Enter Type: "
+        android:id="@+id/Nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Enter Profile: "
+        android:id="@+id/Profiletext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:hint="Enter Subcription: "
+        android:id="@+id/subcripttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/saveId"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#6e75a0"
+        android:text="Save"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/showId"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#823fb5"
+        android:text="Display"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/updateId"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#cef95f"
+        android:text="Update"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/deleteId"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#df76a1"
+        android:text="Delete"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/backId"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#4ac3cc"
+        android:text="Back"
+        android:textStyle="bold"/>
+    </LinearLayout>
